@@ -1,0 +1,58 @@
+:root{
+    --cortitle: #05F2DB;
+    --fundodiv: #030A8C;
+    --corfooter: #F5BC00;
+    --corfundo: lightgreen;
+    --corletra: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    background-image: url("imagemfundo2.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+
+p{
+    color: var(--corletra);
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+div{
+    text-align: center;
+    background-color: var(--corfundo);
+    margin: 0px 420px 0px 420px;
+}
+h1, h2{
+    background-color: var(--fundodiv);
+    color: var(--cortitle);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+}
+#mario{
+    margin: -1px 0px -1px 0px;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: -5px 0px 0px 0px;
+    background-color: var(--fundodiv);
+    font-family: 'Roboto', sans-serif;
+    color: var(--cortitle);
+}
+a {
+    font-size: 25px;
+    text-align: left;
+}
+ul{
+    margin-left: 270px;
+    margin-right: 320px;
+}
